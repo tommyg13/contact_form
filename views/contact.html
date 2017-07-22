@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Contact Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+
+<div class="contact text-center">
+  <div class="left">
+    <h3>Information</h3>
+    <div class="leftTop">
+
+      <span class="fa fa-map-marker"><strong> Address:</strong> lorem ipsum</span>
+      <span class="fa fa-phone"><strong> Phone:</strong> 392312312</span>
+      <span class="fa fa-envelope"><strong> Mail:</strong> <a href="mailto:someone@example.com" target="_blank"> Send Mail</a></span>
+      <span class="fa fa-globe"> <strong>Site</strong> <a href="#" target="_blank"> www.test.com</a></span>
+    </div>
+    <hr>
+    <div class="leftBtm">
+      <h3>Follow us</h3>
+      <a href="#"><img src="http://icons.iconarchive.com/icons/hopstarter/rounded-square/256/Social-Network-Facebook-icon.png" alt="facebook icon"></a>
+      <a href="#"><img src="https://cdn0.iconfinder.com/data/icons/Pinterest/256/Pinterest_Favicon.png" alt="pinsterest icon"></a>
+      <a href="#"><img src="https://irp-cdn.multiscreensite.com/22e26da3/dms3rep/multi/mobile/instagram%20%282%29-256x256.png" alt="instagram icon"></a>
+      <a href="#"><img src="https://www.techspot.com/images2/downloads/topdownload/2014/05/twitter.jpg" alt="twitter icon"></a>
+    </div>
+  </div>
+  <div class="right">
+    <h3 align="center">Contact Form</h3>
+    <form method="post" action="mailer.php" id="contact_form">
+      <div class="form-group">
+        <label>Hello i am:</label><br>
+        <input type="text" id="name" name="name" placeholder="(your name)" required>
+      </div>
+      <div class="form-group">
+        <label for="email">my Email is:</label><br>
+        <input type="email" id="email" name="email" placeholder="(your email)"required>
+      </div>
+      <div class="form-group">
+        <label for="message">and i have a Message for you :</label><br />
+        <textarea id="message" rows=1 name="message" placeholder="(the message)" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="subject">with Subject:</label><br />
+        <input id="subject" name="subject" required placeholder="(the subject)"></input>
+      </div>
+      <button type="submit" id="sub" class="btn btn-success">Send <i class="fa fa-plane"></i></button>
+    </form>
+  </div>
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
