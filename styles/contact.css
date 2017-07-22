@@ -1,5 +1,5 @@
 body {
-  background: url(https://www.milanodoors.com/files/nodus_items/0004/2069/image_color-2069-1405682183.jpg);
+  background: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -40,7 +40,7 @@ body {
   position: absolute;
   top: 0px;
   right: -6%;
-  background-image: url(https://cdn3.iconfinder.com/data/icons/fillies-large/64/ribbon-512.png);
+  background-image: url(../images/ribbon.png);
   background-size: 10px 20px;
   width: 60px;
   max-width: 100%;
@@ -141,7 +141,7 @@ label {
     position: absolute;
     top: 0px;
     right: -9%;
-    background-image: url(https://cdn3.iconfinder.com/data/icons/fillies-large/64/ribbon-512.png);
+    background-image: url(../images/ribon.png);
     background-size: 10px 20px;
     width: 60px;
     max-width: 100%;
@@ -182,7 +182,7 @@ label {
     position: absolute;
     top: 0px;
     right: -9%;
-    background-image: url(https://cdn3.iconfinder.com/data/icons/fillies-large/64/ribbon-512.png);
+    background-image: url(../images/ribon.png);
     background-size: 10px 20px;
     width: 35px;
     max-width: 100%;
