@@ -47,15 +47,15 @@ $(function() {
           typeof data.responseText != "string"
         ) {
           $(formMessages).text(data.responseText);
-          $(".alert-danger").fadeTo(2e3, 500).slideUp(500, function() {
-            $(".alert-danger").slideUp(1200);
+          $(".alert-danger").fadeTo(2e3, 500).slideUp(600, function() {
+            $(".alert-danger").slideUp(1400);
           });
         } else {
-          $(formMessages).text(
-            "Oops <i class='fa fa-exclamation-circle' aria-hidden='true'></i> An error occured and your message could not be sent."
+          $(formMessages).html(
+            "<p>Oops <i class='fa fa-exclamation-circle' aria-hidden='true'></i> An error occured and your message could not be sent.</p>"
           );
-          $(".alert-danger").fadeTo(2e3, 500).slideUp(500, function() {
-            $(".alert-danger").slideUp(1200);
+          $(".alert-danger").fadeTo(2e3, 500).slideUp(600, function() {
+            $(".alert-danger").slideUp(1400);
           });
         }
       });
