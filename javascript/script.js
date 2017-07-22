@@ -1,6 +1,5 @@
 $(document).ready(function(){
     if($( window ).width() <= 600) {
-        console.log("ss")
         $("#sub").after('<hr/>');
     }
 
